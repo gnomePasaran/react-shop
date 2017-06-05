@@ -1,0 +1,19 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "Advanced React.js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnomePasaran/react-shop.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnomePasaran/react-shop/issues"
+  },
+  "homepage": "https://github.com/gnomePasaran/react-shop#readme"
+}
