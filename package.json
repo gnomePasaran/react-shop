@@ -4,7 +4,9 @@
   "description": "Advanced React.js",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/gnomePasaran/react-shop#readme",
   "devDependencies": {
+    "@storybook/react": "^3.0.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -28,11 +31,13 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-react": "^7.0.1",
     "file-loader": "^0.11.2",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-util": "^3.0.8",
     "react-hot-loader": "^3.0.0-beta.6",
     "semantic-ui": "^2.2.10",
     "url-loader": "^0.5.8",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
     "lodash": "^4.17.4",
