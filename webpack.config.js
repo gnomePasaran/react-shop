@@ -21,7 +21,7 @@ module.exports = {
   },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -29,9 +29,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loaders: [
-          'style-loader',
-          'css-loader?importLoaders=1'
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              modules: true
+            }
+          }
         ]
       },
       { test: /\.(eot|png|ttf|svg|woff|woff2)$/, loader: 'url-loader'}
