@@ -4,7 +4,9 @@
   "description": "Advanced React.js",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,33 @@
   "bugs": {
     "url": "https://github.com/gnomePasaran/react-shop/issues"
   },
-  "homepage": "https://github.com/gnomePasaran/react-shop#readme"
+  "homepage": "https://github.com/gnomePasaran/react-shop#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.0.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-plugin-destructuring": "^2.1.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-react": "^7.0.1",
+    "file-loader": "^0.11.2",
+    "gulp-clean-css": "^3.4.1",
+    "gulp-util": "^3.0.8",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "semantic-ui": "^2.2.10",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "semantic-ui-react": "^0.68.5"
+  }
 }
